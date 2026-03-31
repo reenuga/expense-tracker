@@ -8,10 +8,6 @@ with col2:
         "https://cdn-icons-png.flaticon.com/512/2331/2331941.png",
         width=150
     )
-st.image("https://cdn-icons-png.flaticon.com/512/2331/2331941.png", 
-         caption="Expense Tracker 💰", 
-         use_container_width=True)
-
 # Create session state to store expenses
 if "expenses" not in st.session_state:
     st.session_state.expenses = []
