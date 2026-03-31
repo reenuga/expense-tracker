@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("💰 Daily Expense Tracker")
+st.title("💰 Personal Budget Tracker")
 
 # Create session state to store expenses
 if "expenses" not in st.session_state:
