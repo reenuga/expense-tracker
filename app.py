@@ -2,6 +2,12 @@ import streamlit as st
 import pandas as pd
 
 st.title("💰 Personal Budget Tracker")
+col1, col2, col3 = st.columns([1,2,1])
+with col2:
+    st.image(
+        "https://cdn-icons-png.flaticon.com/512/2331/2331941.png",
+        width=150
+    )
 st.image("https://cdn-icons-png.flaticon.com/512/2331/2331941.png", 
          caption="Expense Tracker 💰", 
          use_container_width=True)
