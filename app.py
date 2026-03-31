@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 
 st.title("💰 Personal Budget Tracker")
+st.image("https://cdn-icons-png.flaticon.com/512/2331/2331941.png", 
+         caption="Expense Tracker 💰", 
+         use_container_width=True)
 
 # Create session state to store expenses
 if "expenses" not in st.session_state:
